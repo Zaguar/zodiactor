@@ -1,0 +1,55 @@
+body {
+	background: #EFEFBB; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EFEFBB , #D4D3DD); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EFEFBB , #D4D3DD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+@keyframes actor {
+    0%   {color: white;}
+    25%  {color: #EFEFBB;}
+    50%  {color: #D4D3DD;}
+    90% {color: #EFEFBB;}
+}
+
+.zodiac {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 5em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.actor {
+	animation-name: actor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#sum {
+	margin-top: 100px;
+	font-family: 'Monda';
+	font-weight: 400;
+	font-size: 1.75em;
+
+}
+
+#image {
+	float: left;
+	padding-right: 20px;
+	max-height: 200px;
+}
+
+.wildStyle {
+	font-weight: 700;
+	font-size: 2em;
+	color: rgba(255,255,255,0);
+	text-transform: uppercase;
+	-webkit-text-stroke: 2px black;
+
+}
